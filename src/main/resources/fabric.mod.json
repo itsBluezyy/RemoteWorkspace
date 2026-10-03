@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "id": "goldsmp",
+  "version": "1.0.0",
+  "name": "GoldSMP",
+  "authors": [
+    "MCreator"
+  ],
+  "contact": {
+    "homepage": "https://mcreator.net",
+    "sources": ""
+  },
+  "license": "Not specified",
+  "environment": "server",
+  "entrypoints": {
+    "main": [
+      "net.mcreator.goldsmp.GoldsmpMod"
+    ],
+    "client": [
+      "net.mcreator.goldsmp.GoldsmpModClient"
+    ]
+  },
+  "mixins": [
+    "goldsmp.mixins.json"
+  ],
+  "accessWidener": "META-INF/goldsmp.classtweaker",
+  "depends": {
+    "fabricloader": ">=0.18.2",
+    "minecraft": "~1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}

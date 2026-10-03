@@ -1,0 +1,53 @@
+{
+  "mod_elements": [],
+  "variable_elements": [],
+  "sound_elements": [],
+  "tag_elements": {},
+  "tab_element_order": {},
+  "language_map": {
+    "en_us": {}
+  },
+  "metadata": {
+    "files": [
+      "src/main/java/net/mcreator/goldsmp/mixin/LivingEntityMixin.java",
+      "src/main/java/net/mcreator/goldsmp/mixin/BlockItemMixin.java",
+      "src/main/java/net/mcreator/goldsmp/event/MiscEvents.java",
+      "src/main/java/net/mcreator/goldsmp/mixin/PlayerMixin.java",
+      "src/main/java/net/mcreator/goldsmp/event/BlockEvents.java",
+      "src/main/java/net/mcreator/goldsmp/mixin/CommandsMixin.java",
+      "src/main/resources/goldsmp.mixins.json",
+      "src/main/java/net/mcreator/goldsmp/event/PlayerEvents.java",
+      "src/main/java/net/mcreator/goldsmp/event/LivingEntityEvents.java",
+      "src/main/java/net/mcreator/goldsmp/mixin/ItemStackMixin.java",
+      "src/main/java/net/mcreator/goldsmp/GoldsmpModClient.java",
+      "src/main/java/net/mcreator/goldsmp/mixin/ExperienceOrbMixin.java",
+      "src/main/resources/fabric.mod.json",
+      "src/main/java/net/mcreator/goldsmp/mixin/BoneMealItemMixin.java",
+      "src/main/resources/META-INF/goldsmp.classtweaker",
+      "src/main/java/net/mcreator/goldsmp/event/ItemEvents.java",
+      "src/main/java/net/mcreator/goldsmp/GoldsmpMod.java",
+      "src/main/resources/pack.mcmeta"
+    ]
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "goldsmp",
+    "modName": "GoldSMP",
+    "version": "1.0.0",
+    "author": "MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Not specified",
+    "serverSideOnly": true,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "fabric-1.21.11",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
+    "modElementsPackage": "net.mcreator.goldsmp"
+  },
+  "mcreatorVersion": 202600227711
+}
