@@ -1,14 +1,38 @@
 {
-  "mod_elements": [],
+  "mod_elements": [
+    {
+      "name": "OtherDirt",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "other_dirt",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/goldsmp/block/OtherDirtBlock.java",
+          "src/main/resources/assets/goldsmp/blockstates/other_dirt.json",
+          "src/main/resources/assets/goldsmp/items/other_dirt.json",
+          "src/main/resources/assets/goldsmp/models/block/other_dirt.json",
+          "src/main/resources/data/goldsmp/loot_table/blocks/other_dirt.json",
+          "src/main/resources/assets/goldsmp/models/item/other_dirt.json"
+        ]
+      }
+    }
+  ],
   "variable_elements": [],
   "sound_elements": [],
   "tag_elements": {},
   "tab_element_order": {},
   "language_map": {
-    "en_us": {}
+    "en_us": {
+      "item.goldsmp.other_dirt": "Other Dirt"
+    }
   },
   "metadata": {
     "files": [
+      "src/main/java/net/mcreator/goldsmp/init/GoldsmpModBlocks.java",
+      "src/main/java/net/mcreator/goldsmp/mixin/ServerPlayerMixin.java",
+      "src/main/java/net/mcreator/goldsmp/init/GoldsmpModItems.java",
+      "src/main/java/net/mcreator/goldsmp/mixin/RepairItemRecipeMixin.java",
       "src/main/java/net/mcreator/goldsmp/mixin/LivingEntityMixin.java",
       "src/main/java/net/mcreator/goldsmp/mixin/BlockItemMixin.java",
       "src/main/java/net/mcreator/goldsmp/event/MiscEvents.java",

@@ -8,6 +8,9 @@ import org.apache.logging.log4j.LogManager;
 import net.minecraft.world.entity.player.Player;
 import net.minecraft.server.TickTask;
 
+import net.mcreator.goldsmp.init.GoldsmpModItems;
+import net.mcreator.goldsmp.init.GoldsmpModBlocks;
+
 import net.fabricmc.loader.api.FabricLoader;
 import net.fabricmc.fabric.api.event.lifecycle.v1.ServerTickEvents;
 import net.fabricmc.api.ModInitializer;
@@ -34,6 +37,8 @@ public class GoldsmpMod implements ModInitializer {
 		// Start of user code block mod constructor
 		// End of user code block mod constructor
 		LOGGER.info("Initializing GoldsmpMod");
+		GoldsmpModBlocks.load();
+		GoldsmpModItems.load();
 		tick();
 		// Start of user code block mod init
 		// End of user code block mod init
