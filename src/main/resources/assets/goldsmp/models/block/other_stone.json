@@ -1,8 +1,0 @@
-{
-  "parent": "block/cube_all",
-  "textures": {
-    "all": "goldsmp:block/image_17",
-    "particle": "goldsmp:block/image_17"
-  },
-  "render_type": "solid"
-}
