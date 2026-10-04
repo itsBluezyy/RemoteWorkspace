@@ -33,6 +33,23 @@
           "src/main/resources/assets/goldsmp/models/item/choral_stem.json"
         ]
       }
+    },
+    {
+      "name": "OtherStone",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "other_stone",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/goldsmp/models/block/other_stone.json",
+          "src/main/java/net/mcreator/goldsmp/block/OtherStoneBlock.java",
+          "src/main/resources/data/goldsmp/loot_table/blocks/other_stone.json",
+          "src/main/resources/assets/goldsmp/blockstates/other_stone.json",
+          "src/main/resources/assets/goldsmp/items/other_stone.json",
+          "src/main/resources/assets/goldsmp/models/item/other_stone.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -52,7 +69,8 @@
   "language_map": {
     "en_us": {
       "item.goldsmp.other_dirt": "Other Dirt",
-      "item.goldsmp.choral_stem": "Choral Stem"
+      "item.goldsmp.choral_stem": "Choral Stem",
+      "item.goldsmp.other_stone": "Other Stone"
     }
   },
   "metadata": {
