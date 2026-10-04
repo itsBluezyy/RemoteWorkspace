@@ -1,0 +1,11 @@
+{
+  "parent": "block/grass_block",
+  "textures": {
+    "bottom": "goldsmp:block/image_19",
+    "top": "goldsmp:block/image_19",
+    "side": "goldsmp:block/image_18",
+    "overlay": "goldsmp:block/image_18",
+    "particle": "goldsmp:block/image_19"
+  },
+  "render_type": "cutout_mipped"
+}

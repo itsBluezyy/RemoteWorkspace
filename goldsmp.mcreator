@@ -16,6 +16,23 @@
           "src/main/resources/assets/goldsmp/models/item/other_dirt.json"
         ]
       }
+    },
+    {
+      "name": "ChoralStem",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "choral_stem",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/goldsmp/block/ChoralStemBlock.java",
+          "src/main/resources/assets/goldsmp/blockstates/choral_stem.json",
+          "src/main/resources/assets/goldsmp/items/choral_stem.json",
+          "src/main/resources/assets/goldsmp/models/block/choral_stem.json",
+          "src/main/resources/data/goldsmp/loot_table/blocks/choral_stem.json",
+          "src/main/resources/assets/goldsmp/models/item/choral_stem.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -23,12 +40,19 @@
   "tag_elements": {
     "BLOCKS:minecraft:mineable/shovel": [
       "~OtherDirt@CUSTOM:OtherDirt"
+    ],
+    "BLOCKS:minecraft:mineable/axe": [
+      "~ChoralStem@CUSTOM:ChoralStem"
+    ],
+    "BLOCKS:minecraft:needs_iron_tool": [
+      "~ChoralStem@CUSTOM:ChoralStem"
     ]
   },
   "tab_element_order": {},
   "language_map": {
     "en_us": {
-      "item.goldsmp.other_dirt": "Other Dirt"
+      "item.goldsmp.other_dirt": "Other Dirt",
+      "item.goldsmp.choral_stem": "Choral Stem"
     }
   },
   "metadata": {

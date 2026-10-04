@@ -11,15 +11,18 @@ import net.minecraft.resources.Identifier;
 import net.minecraft.core.registries.Registries;
 
 import net.mcreator.goldsmp.block.OtherDirtBlock;
+import net.mcreator.goldsmp.block.ChoralStemBlock;
 import net.mcreator.goldsmp.GoldsmpMod;
 
 import java.util.function.Function;
 
 public class GoldsmpModBlocks {
 	public static Block OTHER_DIRT;
+	public static Block CHORAL_STEM;
 
 	public static void load() {
 		OTHER_DIRT = register("other_dirt", OtherDirtBlock::new);
+		CHORAL_STEM = register("choral_stem", ChoralStemBlock::new);
 	}
 
 	// Start of user code block custom blocks
@@ -29,5 +32,6 @@ public class GoldsmpModBlocks {
 	}
 
 	public static void clientLoad() {
+		ChoralStemBlock.registerRenderLayer();
 	}
 }
