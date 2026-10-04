@@ -51,7 +51,7 @@
     "rarity": "COMMON",
     "immuneToFire": false,
     "creativeTabs": [],
-    "destroyTool": "Not specified",
+    "destroyTool": "shovel",
     "customDrop": "",
     "dropAmount": 1,
     "xpAmountMin": 0,
